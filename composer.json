@@ -1,0 +1,31 @@
+{
+    "name": "cinghie/yii2-animate",
+    "description": "Asset Bundle to include Animate CSS on your Yii 2 project",
+    "keywords": [
+        "yii2", 
+        "yii2 animate", 
+        "yii2 animate css", 
+	"yii2 animate asset", 
+        "animate css", 
+        "animate"
+    ],
+    "homepage": "https://github.com/cinghie/yii2-animate",
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Gogodigital.it",
+            "email": "info@gogodigital.it",
+            "homepage": "http://www.gogodigital.it/"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "^2.0.15",
+        "bower-asset/bootstrap": "^4.1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "cinghie\\animate\\": ""
+        }
+    }
+}
