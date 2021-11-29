@@ -25,7 +25,7 @@ class AnimateAsset extends AssetBundle
 	/**
 	 * @inherit
 	 */
-	public $sourcePath = '@bower/animate.css';
+	public $sourcePath = '@bower/animate.css/';
 
 	/**
 	 * @inherit
