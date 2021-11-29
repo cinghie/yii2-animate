@@ -25,7 +25,7 @@ class AnimateMinifyAsset extends AssetBundle
     /**
      * @inherit
      */
-     public $sourcePath = '@bower/animate.min.css';
+     public $sourcePath = '@bower/animate.css/';
 
     /**
      * @inherit
