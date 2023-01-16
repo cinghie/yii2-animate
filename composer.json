@@ -21,7 +21,7 @@
     ],
     "require": {
         "yiisoft/yii2": "^2.0.15",
-        "bower-asset/animate.css": "^4.1.1"
+        "animate-css/animate.css": "^4.1.1"
     },
     "autoload": {
         "psr-4": {
