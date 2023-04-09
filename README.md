@@ -16,11 +16,11 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-$ php composer.phar require cinghie/yii2-animate "@dev"
+$ php composer.phar require cinghie/yii2-animate "^1.0.2"
 ```
 
 or add
 
 ```
-"cinghie/yii2-animate": "@dev"
+"cinghie/yii2-animate": "^1.0.2"
 ```
