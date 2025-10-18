@@ -12,8 +12,6 @@
 
 namespace cinghie\animate;
 
-use yii\bootstrap\BootstrapAsset;
-use yii\bootstrap\BootstrapPluginAsset;
 use yii\web\AssetBundle;
 use yii\web\YiiAsset;
 
@@ -39,7 +37,5 @@ class AnimateMinifyAsset extends AssetBundle
      */
 	public $depends = [
 		YiiAsset::class,
-		BootstrapAsset::class,
-		BootstrapPluginAsset::class
     ];
 }
