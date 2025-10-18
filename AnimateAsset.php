@@ -7,13 +7,11 @@
  * @github https://github.com/cinghie/yii2-animate
  * @license GNU GENERAL PUBLIC LICENSE VERSION 3
  * @package yii2-animate
- * @version 1.0.2
+ * @version 1.0.3
  **/
 
 namespace cinghie\animate;
 
-use yii\bootstrap\BootstrapAsset;
-use yii\bootstrap\BootstrapPluginAsset;
 use yii\web\AssetBundle;
 use yii\web\YiiAsset;
 
@@ -31,7 +29,7 @@ class AnimateAsset extends AssetBundle
 	 * @inherit
 	 */
 	public $css = [
-		'animate.css'
+		'animate.css',
 	];
 
 	/**
@@ -39,7 +37,5 @@ class AnimateAsset extends AssetBundle
 	 */
 	public $depends = [
 		YiiAsset::class,
-		BootstrapAsset::class,
-		BootstrapPluginAsset::class
     ];
 }
