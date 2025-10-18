@@ -7,7 +7,7 @@
  * @github https://github.com/cinghie/yii2-animate
  * @license GNU GENERAL PUBLIC LICENSE VERSION 3
  * @package yii2-animate
- * @version 1.0.2
+ * @version 1.0.3
  **/
 
 namespace cinghie\animate;
