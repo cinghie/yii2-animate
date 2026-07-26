@@ -5,37 +5,47 @@
  * @company Gogodigital Srls - Wide ICT Solutions
  * @website http://www.gogodigital.it
  * @github https://github.com/cinghie/yii2-animate
- * @license GNU GENERAL PUBLIC LICENSE VERSION 3
+ * @license BSD-3-Clause
  * @package yii2-animate
- * @version 1.0.3
- **/
+ * @version 1.0.4
+ */
 
 namespace cinghie\animate;
 
 use yii\web\AssetBundle;
-use yii\web\YiiAsset;
 
 /**
- * Class AnimateAsset
- **/
+ * Full (non-minified) Animate.css asset bundle.
+ *
+ * Prefer {@see AnimateMinifyAsset} in production.
+ */
 class AnimateAsset extends AssetBundle
 {
 	/**
-	 * @inherit
+	 * {@inheritdoc}
 	 */
-	public $sourcePath = '@bower/animate.css/';
+	public $sourcePath = '@bower/animate.css';
 
 	/**
-	 * @inherit
+	 * {@inheritdoc}
 	 */
 	public $css = [
 		'animate.css',
 	];
 
 	/**
-	 * @inherit
+	 * Publish only the CSS entry used by this bundle (skip docs / source / lockfiles).
+	 *
+	 * {@inheritdoc}
 	 */
-	public $depends = [
-		YiiAsset::class,
-    ];
+	public $publishOptions = [
+		'only' => [
+			'animate.css',
+		],
+	];
+
+	/**
+	 * {@inheritdoc}
+	 */
+	public $depends = [];
 }

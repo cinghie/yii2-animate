@@ -2,11 +2,11 @@
     "name": "cinghie/yii2-animate",
     "description": "Asset Bundle to include Animate CSS on your Yii 2 project",
     "keywords": [
-        "yii2", 
-        "yii2 animate", 
-        "yii2 animate css", 
-	"yii2 animate asset", 
-        "animate css", 
+        "yii2",
+        "yii2 animate",
+        "yii2 animate css",
+        "yii2 animate asset",
+        "animate css",
         "animate"
     ],
     "homepage": "https://github.com/cinghie/yii2-animate",
